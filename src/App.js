@@ -3,6 +3,8 @@ import Section from './componets/Section/Section';
 import Buttons from './componets/Buttons/Buttons';
 import Statistics from './componets/Statistics/Statistics';
 
+const options = ["good", "neutral", "bad"];
+
 export default function App() {
   const [good, setGood] = useState(0)
   const [neutral, setNeutral] = useState(0)
@@ -45,7 +47,7 @@ export default function App() {
   };
    
   
-const options = ["good", "neutral", "bad"];
+
 
     return (
       <div>
